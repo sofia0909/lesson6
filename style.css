@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: plum;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    line-height: 24px;
+    font-size: 16px;
+}
+h1 {
+    margin-bottom: 20px;
+    line-height: normal;
+    text-align: center;
+    color: black;
+}
+li {
+    padding: 15px 0;
+    color: wheat;
+}
+span {
+    font-size: 24px ;
+    color: wheat; 
+    margin-left: 70px;
+}
+span:hover{
+    font-size: 30px
+}
+li:hover {
+    font-size: 30px;
+    color: tomato;
+}
+.wrapper {
+   min-height: 100%; 
+   overflow: hidden;
+}
+.content {
+    max-width: 1330px;
+    margin: 0px auto;
+    padding: 56px 15px;
+}
+.text {
+    font-size: 10px;
+    color: indigo;
+    margin-bottom: 20px;
+}
+.font {
+    margin-bottom: 20px;
+}
+.font_icons {
+    width: 50%;
+    margin-bottom: 20px;
+    padding-bottom: 30%;
+    background-color: darkblue;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transition: width 2s;
+    width: 50%;
+}
+.font_icons:hover {
+    width: 100%;
+}
+p{
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.pad{
+    width: 50%;
+    margin-bottom: 20px;
+    padding-bottom: 30%;
+    background-color: violet;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transition: width 1s;
+    width: 30%;
+    height: 5px;
+    transition: width 1s;
+}
+.pad:hover{
+    width: 60%;
+    height: 10px; 
+    box-shadow: 4px black;
+}
